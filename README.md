@@ -1,7 +1,7 @@
 # How to deploy pre-trained tensorflow model on Amazon sagemaker
 
 #The following steps are implemented by using sagemaker notebook (a kind of EC2 instance). Note that the notebook should be created with the authority to access the s3 storage. The file structures are shown as follows:
- 
+ \n
 1.	Prepare a pre-trained model. The pre-trained model and related serving code are packed into a compressed file named “model.tar.gz”.
    a)	Create a file folder ”export/Servo/code” in current directory;
    b)	Copy “inference.py” into “export/Servo/code”. The “inference.py” is used to process the input and output messages of serving-request.
